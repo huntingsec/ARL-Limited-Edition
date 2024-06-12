@@ -13,29 +13,24 @@ apt install wget docker.io docker-compose -y
 ```
 
 #### 安装代码
+##### 一键安装
 
 ##### git
 
 ```
 git clone https://github.com/huntingsec/ARL-Limited-Edition.git
-```
-
-##### release
-
-```
-wget https://github.com/huntingsec/ARL-Limited-Edition/releases/download/v0.0.1/ARL-limited-edition.zip
-unzip ARL-Limited-Edition.zip
-```
-
-##### 一键安装
-
-```
 cd ARL-Limited-Edition
 chmod +x install.sh
 ./install.sh
 ```
 
+
 ##### 手动安装
+
+```
+wget https://github.com/huntingsec/ARL-Limited-Edition/releases/download/v0.0.1/ARL-limited-edition.zip
+unzip ARL-Limited-Edition.zip
+```
 
 ```
 cd ARL-Limited-Edition/docker
