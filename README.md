@@ -49,7 +49,7 @@ docker cp file_top_2000.txt $(docker ps|grep arl_worker|cut -d ' ' -f1):/code/ap
 cd ARL-Finger-ADD
 python3 ARL-Finger-ADD.py https://127.0.0.1:5003/ admin arlpass
 ```
-systemctl restart docker.service
+
 ##### 重启docker
 
 ```
