@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Update and install required packages
-apt update
-apt install wget docker.io docker-compose -y
-
 # Download and extract ARL-Limited-Edition
 wget https://github.com/huntingsec/ARL-Limited-Edition/releases/download/v0.0.1/ARL-Limited-Edition.zip
 unzip ARL-Limited-Edition.zip
