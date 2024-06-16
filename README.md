@@ -47,7 +47,7 @@ docker cp domain_2w.txt $(docker ps|grep arl_worker|cut -d ' ' -f1):/code/app/di
 docker cp file_top_2000.txt $(docker ps|grep arl_worker|cut -d ' ' -f1):/code/app/dicts
 ```
 
-##### 添加指纹
+##### 添加指纹（可能会有添加不上指纹的情况，多执行几遍就好了）
 
 ```
 cd ARL-Finger-ADD
