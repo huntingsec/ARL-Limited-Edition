@@ -29,15 +29,9 @@ chmod +x install.sh
 ###### wget用断点续传下载防止下载中断
 
 ###### 如果速度太慢可下载到本地导入服务器
-centos-wget版本1.14（解决方案）
+wget版本1.14（解决方案-感谢Sam提供-https://github.com/locklocklock）
 ```
 wget --tries=3 -c -nc https://github.com/huntingsec/ARL-Limited-Edition/releases/download/v0.0.1/ARL-limited-edition.zip
-unzip ARL-Limited-Edition.zip
-```
-
-
-```
-wget -t -c -nc https://github.com/huntingsec/ARL-Limited-Edition/releases/download/v0.0.1/ARL-limited-edition.zip
 unzip ARL-Limited-Edition.zip
 ```
 
