@@ -1,6 +1,6 @@
 #!/bin/bash
 
-wget --tries=3 -c -nc https://github.com/huntingsec/ARL-Limited-Edition/releases/download/v0.0.1/ARL-limited-edition.zip
+wget --tries=3 -c -nc https://github.com/huntingsec/ARL-Limited-Edition/releases/download/v0.0.2/ARL-Limited-Edition.zip
 unzip ARL-Limited-Edition.zip
 
 
