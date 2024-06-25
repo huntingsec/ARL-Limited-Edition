@@ -29,12 +29,11 @@ chmod +x install.sh
 ###### wget用断点续传下载防止下载中断
 
 ###### 如果速度太慢可下载到本地导入服务器
-wget版本1.14（解决方案-感谢Sam提供-https://github.com/locklocklock）
 ```
-wget --tries=3 -c -nc https://github.com/huntingsec/ARL-Limited-Edition/releases/download/v0.0.1/ARL-limited-edition.zip
+wget --tries=3 -c -nc [https://github.com/huntingsec/ARL-Limited-Edition/releases/download/v0.0.1/ARL-limited-edition.zip](https://github.com/huntingsec/ARL-Limited-Edition/releases/download/v0.0.2/ARL-Limited-Edition.zip)
 unzip ARL-Limited-Edition.zip
 ```
-
+###### 经兄弟们反馈，都部署在垃圾的VPS上容易卡顿，线程回调到了2，增加了web弱口令的字典
 ```
 cd ARL-Limited-Edition/docker
 docker load -i arl_web.tar
@@ -45,6 +44,7 @@ docker-compose up -d
 docker cp ../app/config.py $(docker ps|grep arl_worker|cut -d ' ' -f1):/code/app/
 docker cp domain_2w.txt $(docker ps|grep arl_worker|cut -d ' ' -f1):/code/app/dicts
 docker cp file_top_2000.txt $(docker ps|grep arl_worker|cut -d ' ' -f1):/code/app/dicts
+docker cp common_password.txt $(docker ps|grep arl_worker|cut -d ' ' -f1):/opt/ARL-NPoC/xing/dicts/
 ```
 
 ##### 添加指纹（可能会有添加不上指纹的情况，多执行几遍就好了）
