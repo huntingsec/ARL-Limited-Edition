@@ -62,4 +62,4 @@ systemctl restart docker.service
 
 ##### 有问题进群咨询
 
-![a9bbf910b8cf50888c7c4f9efd06eb5](https://github.com/huntingsec/ARL-Limited-Edition/blob/main/link.jpg)
+[![a9bbf910b8cf50888c7c4f9efd06eb5](https://github.com/huntingsec/ARL-Limited-Edition/blob/main/link.jpg)](https://github.com/huntingsec/ARL-Limited-Edition/blob/main/link.jpg)
