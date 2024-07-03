@@ -23,6 +23,9 @@ cd ARL-Limited-Edition
 chmod +x install.sh
 ./install.sh
 ```
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=huntingsec/ARL-Limited-Edition&type=Date)](https://star-history.com/#huntingsec/ARL-Limited-Edition&Date)
 
 
 ##### 手动安装（逐步执行）
