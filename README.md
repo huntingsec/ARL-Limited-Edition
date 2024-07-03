@@ -23,10 +23,6 @@ cd ARL-Limited-Edition
 chmod +x install.sh
 ./install.sh
 ```
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=huntingsec/ARL-Limited-Edition&type=Date)](https://star-history.com/#huntingsec/ARL-Limited-Edition&Date)
-
 
 ##### 手动安装（逐步执行）
 ###### wget用断点续传下载防止下载中断
@@ -66,3 +62,7 @@ systemctl restart docker.service
 ##### 有问题进群咨询
 
 ![a9bbf910b8cf50888c7c4f9efd06eb5](https://github.com/huntingsec/ARL-Limited-Edition/blob/main/link.jpg)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=huntingsec/ARL-Limited-Edition&type=Date)](https://star-history.com/#huntingsec/ARL-Limited-Edition&Date)
